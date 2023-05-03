@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(imagemFundo.jpg);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 15vh;
+    /* padding-top: 5px; */
+   
+
+}
+
+.logoProjeto {
+    width: 20vh;
+    margin-right: 30vh;
+}
+
+.navbar {
+    font-size: xx-large;
+
+}
+
+.navbar a {
+    text-decoration: none;
+
+}
+
+.itemMenu {
+    color: rgb(255, 255, 255);
+    margin-right: 10vh;
+    font-weight: 900;
+}
+
+.cadastrar {
+    display: flex;
+    align-items: center;
+    background-color:#cf2b46 ;
+    box-shadow: 5px 5px 0px black, 5px 5px 0px;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    width: 22vh;
+    height: 3vw;
+    font-size: x-large;
+}
+
+/*  fim header */
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5vh;
+    width: 100%;
+    height: 25vh;
+
+}
+
+.slogan {
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    font-size: x-large;
+    width: 30vh;
+    height: 8vh;
+font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 5px 5px 0px black, 5px 5px 0px;
+    background-color: #cf2b46;
+    color: white;
+}
+
+/*  fim sessão 1 */
+
+.tituloContainerProjeto {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 900;
+    margin-top: 5vh;
+    color: rgb(255, 255, 255);
+   
+}
+
+.containerProjeto {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70vh;
+
+}
+
+.card1 {
+    background-color: whitesmoke;
+    align-items: center;
+    position: relative;
+    margin-top: 7vh;
+    width: 30rem;
+    height: 40vh;
+    padding: 20px;
+    box-shadow: 20px 20px 30px rgb(35, 35, 35);
+    border-radius: 20px;
+    font-size: larger;
+}
+.card2 {
+    background-color: whitesmoke;
+    align-items: center;
+    position: relative;
+    margin-top: 7vh;
+    width: 30rem;
+    height: 43vh;
+    padding: 20px;
+    box-shadow: 20px 20px 30px rgb(35, 35, 35);
+    border-radius: 20px;
+    font-size: larger;
+}
+.cardImagem {
+    background-color: whitesmoke;
+    align-items: center;
+    position: relative;
+    margin-top: 9vh;
+    width: 38rem;
+    height: 47vh;
+    padding: 10px;
+    box-shadow: 20px 20px 30px rgb(35, 35, 35);
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.ImagemProjeto {
+    position: relative;
+    width: 70vh;
+    height: 21vw;
+
+}
+
+/*  fim sessão Projeto */
+
+.tituloContainerHistoria {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 900;
+    margin-top: 8vh;
+    color: rgb(255, 255, 255);
+}
+
+.containerHistoria {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70vh;
+
+}
+
+.card1 {
+    background-color: whitesmoke;
+    align-items: center;
+    position: relative;
+    margin-top: 5vh;
+    width: 30rem;
+    height: 50vh;
+    padding: 20px;
+    box-shadow: 20px 20px 30px rgb(35, 35, 35);
+    border-radius: 20px;
+    font-size: larger;
+}
+
+.cardImagem {
+    background-color: whitesmoke;
+    align-items: center;
+    position: relative;
+    margin-top: 9vh;
+    width: 38rem;
+    height: 47vh;
+    padding: 10px;
+    box-shadow: 20px 20px 30px rgb(35, 35, 35);
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.imagemGrafiteBrasil {
+    width: 70vh;
+    height: 21vw;
+
+}
+
+/*  fim sessão Historia do grafite no BR */
+
+.tituloContainerTipos {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 900;
+    margin-top: 8vh;
+    color: rgb(255, 255, 255);
+}
+
+.containerTipos1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70vh;
+
+}
+
+.cardTipo1 {
+    background-color: whitesmoke;
+    align-items: center;
+    position: relative;
+    margin-top: 7vh;
+    width: 30rem;
+    height: 25vh;
+    padding: 20px;
+    box-shadow: 20px 20px 30px rgb(35, 35, 35);
+    border-radius: 20px;
+    font-size: larger;
+}
+
+.cardImagem {
+    background-color: whitesmoke;
+    align-items: center;
+    position: relative;
+    margin-top: 9vh;
+    width: 38rem;
+    height: 47vh;
+    padding: 10px;
+    box-shadow: 20px 20px 30px rgb(35, 35, 35);
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.imagemTag {
+    width: 70vh;
+    height: 21vw;
+}
+
+/*  fim sessão tipo 1 tag */
+
+
+.containerTipos2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70vh;
+
+}
+
+.cardTipo2 {
+    background-color: whitesmoke;
+    align-items: center;
+    position: relative;
+    margin-top: 7vh;
+    width: 30rem;
+    height: 25vh;
+    padding: 20px;
+    box-shadow: 20px 20px 30px rgb(35, 35, 35);
+    border-radius: 20px;
+    font-size: larger;
+}
+
+.cardImagem {
+    background-color: whitesmoke;
+    align-items: center;
+    position: relative;
+    margin-top: 9vh;
+    width: 38rem;
+    height: 47vh;
+    padding: 10px;
+    box-shadow: 20px 20px 30px rgb(35, 35, 35);
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.imagemStencil {
+    width: 70vh;
+    height: 21vw;
+}
+
+/*  fim sessão tipo 2 stencil */
+
+
+.containerTipos3 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70vh;
+
+}
+
+.cardTipo3 {
+    background-color: whitesmoke;
+    align-items: center;
+    position: relative;
+    margin-top: 7vh;
+    width: 30rem;
+    height: 25vh;
+    padding: 20px;
+    box-shadow: 20px 20px 30px rgb(35, 35, 35);
+    border-radius: 20px;
+    font-size: larger;
+}
+
+.cardImagem {
+    background-color: whitesmoke;
+    align-items: center;
+    position: relative;
+    margin-top: 9vh;
+    width: 38rem;
+    height: 47vh;
+    padding: 10px;
+    box-shadow: 20px 20px 30px rgb(35, 35, 35);
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.imagem3D {
+    width: 70vh;
+    height: 21vw;
+}
+
+
+/*  fim sessão tipo 3 3D */
+
+
+.containerTipos4 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70vh;
+
+}
+
+.cardTipo4 {
+    background-color: whitesmoke;
+    align-items: center;
+    position: relative;
+    margin-top: 7vh;
+    width: 30rem;
+    height: 25vh;
+    padding: 20px;
+    box-shadow: 20px 20px 30px rgb(35, 35, 35);
+    border-radius: 20px;
+    font-size: larger;
+}
+
+.cardImagem {
+    background-color: whitesmoke;
+    align-items: center;
+    position: relative;
+    margin-top: 9vh;
+    width: 38rem;
+    height: 47vh;
+    padding: 10px;
+    box-shadow: 20px 20px 30px rgb(35, 35, 35);
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.imagemWildStyle {
+    width: 70vh;
+    height: 21vw;
+}
+
+
+/*  fim sessão tipo 4 WildStyle */
+
+
+.containerTipos5 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70vh;
+
+}
+
+.cardTipo5 {
+    background-color: whitesmoke;
+    align-items: center;
+    position: relative;
+    margin-top: 7vh;
+    width: 30rem;
+    height: 25vh;
+    padding: 20px;
+    box-shadow: 20px 20px 30px rgb(35, 35, 35);
+    border-radius: 20px;
+    font-size: larger;
+}
+
+.cardImagem {
+    background-color: whitesmoke;
+    align-items: center;
+    position: relative;
+    margin-top: 9vh;
+    width: 38rem;
+    height: 47vh;
+    padding: 10px;
+    box-shadow: 20px 20px 30px rgb(35, 35, 35);
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+.imagemBombing {
+    width: 70vh;
+    height: 21vw;
+}
+
+/*  fim sessão tipo 5 bombing */
+
+/*  fim sessão 4 */

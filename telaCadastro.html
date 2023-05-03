@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="telaCadastro.css">
+</head>
+<body>
+    
+    <header class="header">
+
+        <img src="artImagem.png" class="logoProjeto" alt="">
+        <nav class="navbar">
+            <a class="itemMenu" href="#">projeto</a>
+            <a class="itemMenu" href="#">historia</a>
+            <a class="itemMenu" href="#">galeria</a>
+            <a class="itemMenu" href="#">contato</a>
+        </nav>
+      
+
+    </header>
+
+<div class="container">
+<div class="card1">
+
+    <h1>Cadastre-se</h1>
+
+    
+    <div class="label-float">
+        nome completo:
+       <input type="text" id="ipt_nomeCompleto"> 
+    </div>
+    
+
+    <div class="label-float">
+        email:
+        <input type="text" id="ipt_email"> 
+    </div>
+
+    <div class="label-float">
+        senha:
+        <input type="text" id="ipt_senha"> 
+    </div>
+
+    <div class="label-float">
+        repetir senha:
+        <input type="text" id="ipt_RepetirSenha"> 
+    </div>
+
+    <div class="estiloBut">
+        <button onclick="cadastrar()">Cadastrar</button>
+    </div>
+   
+
+
+</div>
+</div>
+
+
+<div id="div_erro"></div>
+
+</body>
+</html>
+<script>
+     function cadastrar() {
+        var nomeCompleto = ipt_nomeCompleto.value;
+        var email = ipt_email.value;
+        var senha = ipt_senha.value;
+        var repetirSenha = ipt_RepetirSenha.value;
+
+
+        if (nomeCompleto == "" || email == "" || senha == "" || repetirSenha == "") {
+            div_erro.innerHTML = 'Preencha todos os campos'
+        } else if (senha == repetirSenha) {
+            alert('Cadastro efetuado com sucesso');
+        } else {
+            div_erro.innerHTML = 'Por favor, verifique sua senha e tente novamente';
+        }
+    }
+</script>
