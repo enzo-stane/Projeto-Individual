@@ -60,7 +60,7 @@ h1 {
     text-align: center;
     /* margin-bottom: 10px; */
      margin-top: 10px; 
-    color: #2e2f30;
+    color: #cf2b46;
 }
 
 .label-float input {
@@ -90,7 +90,7 @@ h1 {
     border-bottom: 2px solid #cf2b46;
 }
 .label-float input:valid {
-    border-bottom: 2px solid  #2e2f30 ;
+    border-bottom: 2px solid  #cf2b46 ;
 }
 
 .label-float label {
@@ -114,11 +114,11 @@ h1 {
 .label-float input:valid+label {
     font-size: 18px;
     margin-top: 0;
-    color:  #2e2f30;
+    color:  #cf2b46;
 }
 
 button {
-    background-color:  #2e2f30;
+    background-color:  #cf2b46;
     /* border-color: #ffffff; */
     border-style:none;
     width: 160px;

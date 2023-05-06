@@ -13,6 +13,7 @@
 
         <img src="artImagem.png" class="logoProjeto" alt="">
         <nav class="navbar">
+            <a class="itemMenu" href="#">home</a>
             <a class="itemMenu" href="#">projeto</a>
             <a class="itemMenu" href="#">historia</a>
             <a class="itemMenu" href="#">galeria</a>
@@ -36,17 +37,17 @@
 
     <div class="label-float">
         email:
-        <input type="text" id="ipt_email"> 
+        <input type="" id="ipt_email"> 
     </div>
 
     <div class="label-float">
         senha:
-        <input type="text" id="ipt_senha"> 
+        <input type="password" id="ipt_senha"> 
     </div>
 
     <div class="label-float">
         repetir senha:
-        <input type="text" id="ipt_RepetirSenha"> 
+        <input type="password" id="ipt_RepetirSenha"> 
     </div>
 
     <div class="estiloBut">
@@ -72,11 +73,11 @@
 
 
         if (nomeCompleto == "" || email == "" || senha == "" || repetirSenha == "") {
-            div_erro.innerHTML = 'Preencha todos os campos'
+            alert('Preencha todos os campos');
         } else if (senha == repetirSenha) {
             alert('Cadastro efetuado com sucesso');
         } else {
-            div_erro.innerHTML = 'Por favor, verifique sua senha e tente novamente';
+            alert('Verifique sua senha');
         }
     }
 </script>

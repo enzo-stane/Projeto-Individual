@@ -40,6 +40,23 @@ header {
     font-weight: bold;
 }
 
+.cadastrar {
+    display: flex;
+    align-items: center;
+    background-color:#cf2b46 ;
+    box-shadow: 5px 5px 0px black, 5px 5px 0px;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    width: 22vh;
+    height: 3vw;
+    font-size: x-large;
+    
+}
+
+
 .container{
     display: flex;
     justify-content: center;
@@ -61,7 +78,7 @@ h1 {
     text-align: center;
     /* margin-bottom: 10px; */
      margin-top: 10px; 
-    color: #1972b2;
+    color:  #cf2b46;
 }
 
 .label-float input {
@@ -69,7 +86,7 @@ h1 {
     padding: 5px 5px 5px 0px;
     display: inline-block;
     border: 0;
-    border-bottom: 2px solid #252628;
+    border-bottom: 2px solid   #cf2b46;
     color: #000000;
     background-color: transparent;
     outline: none;
@@ -88,10 +105,10 @@ h1 {
 }
 
 .label-float input:focus {
-    border-bottom: 2px solid #cf2b46;
+    border-bottom: 2px solid   #cf2b46;
 }
 .label-float input:valid {
-    border-bottom: 2px solid #1972b2;
+    border-bottom: 2px solid   #cf2b46;
 }
 
 .label-float label {
@@ -109,17 +126,17 @@ h1 {
 .label-float input:focus+label {
     font-size: 18px;
     margin-top: 0;
-    color: #cf2b46;
+    color:   #cf2b46;
 }
 
 .label-float input:valid+label {
     font-size: 18px;
     margin-top: 0;
-    color: #1972b2;
+    color:   #cf2b46;
 }
 
 button {
-    background-color: #1972b2;
+    background-color:  #cf2b46;
     /* border-color: #ffffff; */
     border-style:none;
     width: 160px;
@@ -135,7 +152,7 @@ button {
 }
 
 button:hover {
-    background-color: #cf2b46;
+    background-color:   #cf2b46;
 }
 
 .estiloBut {

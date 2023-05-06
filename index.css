@@ -53,6 +53,7 @@ header {
     width: 22vh;
     height: 3vw;
     font-size: x-large;
+    
 }
 
 /*  fim header */
@@ -87,6 +88,7 @@ font-weight: 500;
     box-shadow: 5px 5px 0px black, 5px 5px 0px;
     background-color: #cf2b46;
     color: white;
+    text-decoration: none;
 }
 
 /*  fim sessão 1 */
@@ -133,13 +135,13 @@ font-weight: 500;
     border-radius: 20px;
     font-size: larger;
 }
-.cardImagem {
+.cardImagem1 {
     background-color: whitesmoke;
     align-items: center;
     position: relative;
     margin-top: 9vh;
     width: 38rem;
-    height: 47vh;
+    height: 52vh;
     padding: 10px;
     box-shadow: 20px 20px 30px rgb(35, 35, 35);
     border-radius: 5px;
@@ -148,8 +150,8 @@ font-weight: 500;
 
 .ImagemProjeto {
     position: relative;
-    width: 70vh;
-    height: 21vw;
+    width: 66vh;
+    height: 22vw;
 
 }
 
@@ -185,13 +187,13 @@ font-weight: 500;
     font-size: larger;
 }
 
-.cardImagem {
+.cardImagem2 {
     background-color: whitesmoke;
     align-items: center;
     position: relative;
     margin-top: 9vh;
     width: 38rem;
-    height: 47vh;
+    height: 52vh;
     padding: 10px;
     box-shadow: 20px 20px 30px rgb(35, 35, 35);
     border-radius: 5px;
@@ -199,8 +201,8 @@ font-weight: 500;
 }
 
 .imagemGrafiteBrasil {
-    width: 70vh;
-    height: 21vw;
+    width: 66vh;
+    height: 22vw;
 
 }
 
@@ -236,13 +238,13 @@ font-weight: 500;
     font-size: larger;
 }
 
-.cardImagem {
+.cardImagem3 {
     background-color: whitesmoke;
     align-items: center;
     position: relative;
     margin-top: 9vh;
-    width: 38rem;
-    height: 47vh;
+   width: 38rem;
+    height: 52vh;
     padding: 10px;
     box-shadow: 20px 20px 30px rgb(35, 35, 35);
     border-radius: 5px;
@@ -250,8 +252,8 @@ font-weight: 500;
 }
 
 .imagemTag {
-    width: 70vh;
-    height: 21vw;
+     width: 66vh;
+    height: 22vw;
 }
 
 /*  fim sessão tipo 1 tag */
@@ -278,13 +280,13 @@ font-weight: 500;
     font-size: larger;
 }
 
-.cardImagem {
+.cardImagem4 {
     background-color: whitesmoke;
     align-items: center;
     position: relative;
     margin-top: 9vh;
-    width: 38rem;
-    height: 47vh;
+   width: 38rem;
+    height: 52vh;
     padding: 10px;
     box-shadow: 20px 20px 30px rgb(35, 35, 35);
     border-radius: 5px;
@@ -292,8 +294,8 @@ font-weight: 500;
 }
 
 .imagemStencil {
-    width: 70vh;
-    height: 21vw;
+    width: 66vh;
+    height: 22vw;
 }
 
 /*  fim sessão tipo 2 stencil */
@@ -320,13 +322,13 @@ font-weight: 500;
     font-size: larger;
 }
 
-.cardImagem {
+.cardImagem5 {
     background-color: whitesmoke;
     align-items: center;
     position: relative;
     margin-top: 9vh;
-    width: 38rem;
-    height: 47vh;
+   width: 38rem;
+    height: 52vh;
     padding: 10px;
     box-shadow: 20px 20px 30px rgb(35, 35, 35);
     border-radius: 5px;
@@ -334,8 +336,8 @@ font-weight: 500;
 }
 
 .imagem3D {
-    width: 70vh;
-    height: 21vw;
+    width: 66vh;
+    height: 22vw;
 }
 
 
@@ -363,13 +365,13 @@ font-weight: 500;
     font-size: larger;
 }
 
-.cardImagem {
+.cardImagem6 {
     background-color: whitesmoke;
     align-items: center;
     position: relative;
     margin-top: 9vh;
-    width: 38rem;
-    height: 47vh;
+   width: 38rem;
+    height: 52vh;
     padding: 10px;
     box-shadow: 20px 20px 30px rgb(35, 35, 35);
     border-radius: 5px;
@@ -377,8 +379,8 @@ font-weight: 500;
 }
 
 .imagemWildStyle {
-    width: 70vh;
-    height: 21vw;
+     width: 66vh;
+    height: 22vw;
 }
 
 
@@ -406,13 +408,13 @@ font-weight: 500;
     font-size: larger;
 }
 
-.cardImagem {
+.cardImagem7 {
     background-color: whitesmoke;
     align-items: center;
     position: relative;
     margin-top: 9vh;
-    width: 38rem;
-    height: 47vh;
+   width: 38rem;
+    height: 52vh;
     padding: 10px;
     box-shadow: 20px 20px 30px rgb(35, 35, 35);
     border-radius: 5px;
@@ -420,8 +422,8 @@ font-weight: 500;
 }
 
 .imagemBombing {
-    width: 70vh;
-    height: 21vw;
+   width: 66vh;
+    height: 22vw;
 }
 
 /*  fim sessão tipo 5 bombing */

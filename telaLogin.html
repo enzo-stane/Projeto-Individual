@@ -13,12 +13,14 @@
 
         <img src="artImagem.png" class="logoProjeto" alt="">
         <nav class="navbar">
+            <a class="itemMenu" href="#">home</a>
             <a class="itemMenu" href="#">projeto</a>
             <a class="itemMenu" href="#">historia</a>
             <a class="itemMenu" href="#">galeria</a>
             <a class="itemMenu" href="#">contato</a>
         </nav>
-      
+        <a class="cadastrar" href="telaCadastro.html">cadastrar</a>
+
 
     </header>
 
@@ -60,11 +62,11 @@
 
 
         if ( email == "" || senha == "" ) {
-            div_erro.innerHTML = 'Preencha todos os campos'
-        } else if (senha == repetirSenha) {
+            alert("Preencha todos os campos")
+        } else if(senha == "2207"  ) {
             alert('Cadastro efetuado com sucesso');
         } else {
-            div_erro.innerHTML = 'Por favor, verifique sua senha e tente novamente';
+            alert('Algo está errado, verifique seu email e senha');
         }
     }
 </script>
