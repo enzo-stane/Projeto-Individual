@@ -194,40 +194,44 @@
     </section>
     <div class="tituloContainer1">
         sua divisao na semana para praticar é:
-    </div>`
+    </div>
+    
+
+`
        var parte3= ` `
        var parte4 = `
-    <section class="container3">
-        <div class="cardSemanaTotal">
-            COM N SEMANAS DE TREINOS VOCE VAI CONSEGUIR CHEGAR EM UM NIVEL MUITO BOM DE APRENDIZADO E VAI REPRESENTAR A
+       <section class="cardTitulo">
+    <div class="titulo">
+        COM ${50/NtreinosNaSemana} SEMANAS DE TREINOS VOCE VAI CONSEGUIR CHEGAR EM UM NIVEL MUITO BOM DE APRENDIZADO E VAI REPRESENTAR A
             CENA DO GRAFITE !
-        </div>
-    </section>`
+    </div>
+</section> 
+ `
 
 
         if (NtreinosNaSemana == 1) {
             var i = 1
             div_ver.innerHTML += `${parte1}`
-            div_ver.innerHTML += `${parte2}`
+            div_ver.innerHTML += `${parte2} `
             while (i <= 7) {
 
                 if (i == 4) {
-                    div_ver.innerHTML += ` <section class="container1">
-                          <div class="cardDiaSemana">
+                    div_ver.innerHTML += ` 
+                          <div class="cardDiaSemanaDescanso">
             <div class="tituloCardDiaSemana">
-                ${i}dia da semana <br>
+                ${i}dia da semana 
             </div>
-            <div class="conteudoCardDiaSemana">
+            <div class="conteudoCardDiaSemanaDescanso">
               dia do descanso
             </div>
             </div>
-            </section>
+            
              `
                 } else {
-                    div_ver.innerHTML += `  <section class="container1">
+                    div_ver.innerHTML += `   
                     <div class="cardDiaSemana">
             <div class="tituloCardDiaSemana">
-                ${i}dia da semana <br>
+                ${i}dia da semana 
             </div>
             <div class="conteudoCardDiaSemana">
                 1- para sua tag escolha um nome que goste ou apelido; <br>
@@ -236,18 +240,18 @@
                 4- treine com a mesma fonte só que agora com uma caneta com a ponta mais grossa; <br>
                 5- tente usar algum spray da sua prefência para fazer a tag se não se acostumar, continue com caneta;
                 <br>
-                6- comece a praticar a mesma tag só que com fontes, cores, tamanhos diferentes;<br>
+                6- comece a praticar a mesma tag só que com fontes, cores, tamanhos diferentes;
                 
             </div>
 
 
         </div>
-    </section>
+    
     `
                 }
                 i++
             }     
-            div_ver.innerHTML += `${parte4}`
+            div_ver.innerHTML += `   ${parte4}`
         }
 
         else if (NtreinosNaSemana == 2) {
