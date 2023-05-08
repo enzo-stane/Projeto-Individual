@@ -17,11 +17,12 @@ font-size: xx-large;
 }
 .titulo{
 color: whitesmoke;
-font-size: x-large;
+font-size: xx-large;
 }
 .containerTipo{
     display: flex;
     justify-content: space-around;
+    margin-top: 5vh;
     width: 100%;
     height: 20vw;
     /* background-color: coral; */
@@ -37,16 +38,26 @@ font-size: x-large;
 }
 .tituloTipos{
     display: flex;
-background-color: black;
+
 justify-content: center;
 width: 100%;
 height: 2vw;
 color: whitesmoke;
-font-size: x-large;
+font-size: xx-large;
+}
+.tituloContainer1{
+    display: flex;
+
+justify-content: center;
+width: 100%;
+height: 2vw;
+color: whitesmoke;
+font-size: xx-large;
 }
 .container1{
     display: flex;
     justify-content: space-around;
+    margin-top: 5vh;
     width: 100%;
     height: 25vw;
     /* background-color: green; */
@@ -71,6 +82,7 @@ color: whitesmoke;
 .conteudoCardDiaSemana{
 display: flex;
 justify-content: center;
+align-items: center;
 font-size: 16px;
 }
 .container2{
@@ -97,5 +109,5 @@ font-size: 16px;
     width: 70vh;
     height: 8vw;
     border-radius: 20px;
-    background-color: whitesmoke;
+    background-color: rgb(99, 69, 69);
 }

@@ -48,7 +48,16 @@
         </div>
 
         <div class="Ntreinos">
-            <input type="number" id="ipt_Ntreinos">
+            <select id="ipt_Ntreinos">
+                <option value=""></option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+            </select>
         </div>
 
     </section>
@@ -66,9 +75,9 @@
 <script>
     function VerCarreira() {
 
-        var tipo = (ipt_tipo.value)
+        
         var idade = Number(ipt_idade.value)
-        var NtreinosNaSemana = Number(ipt_Ntreinos.value)
+       
 
 
         if (NtreinosNaSemana == 1) {
