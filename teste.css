@@ -54,21 +54,23 @@ height: 2vw;
 color: whitesmoke;
 font-size: xx-large;
 }
-.container1{
+#div_ver{
     display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-top: 5vh; 
     width: 100%;
-    height: 25vw;
-    background-color: green; 
+    height: 85vh;
+ 
     
 }
 .cardDiaSemana{
 display: flex;
- 
-flex-direction: column; 
-width: 40vh;
-height: 20vw;
+  
+flex-direction: column;  
+width: 20vw;
+height: 40vh;
 border-radius: 20px;
 background-color: whitesmoke;
 }
@@ -83,6 +85,7 @@ background-color: whitesmoke;
     }
 .tituloCardDiaSemana{
 display: flex;
+padding: 0%;
 justify-content: center;
 font-size: x-large;
 background-color: rgb(99, 69, 69);
@@ -90,12 +93,14 @@ color: whitesmoke;
 }
 .conteudoCardDiaSemana{
 display: flex;
+padding: 2%;
 justify-content: center;
 align-items: center;
 font-size: 16px;
 }
 .conteudoCardDiaSemanaDescanso{
     display: flex;
+    padding: 2%;
     justify-content: center;
     align-items: center;
     font-size: 16px;
