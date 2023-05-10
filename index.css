@@ -228,9 +228,9 @@ font-weight: 500;
     background-color: whitesmoke;
     align-items: center;
     position: relative;
-    margin-top: 7vh;
+    margin-top: 20vh;
     width: 30rem;
-    height: 25vh;
+    height: 23vh;
     padding: 20px;
     box-shadow: 20px 20px 30px rgb(35, 35, 35);
     border-radius: 20px;
@@ -247,9 +247,33 @@ font-weight: 500;
     padding: 10px;
     box-shadow: 20px 20px 30px rgb(35, 35, 35);
     border-radius: 5px;
-    font-size: x-large;
+    font-size: xx-large;
 }
-
+.NomeTag{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.NomeStencil{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.Nome3D{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.NomeWild{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.NomeBombing{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
 .imagemTag {
      width: 66vh;
     height: 22vw;
@@ -270,9 +294,9 @@ font-weight: 500;
     background-color: whitesmoke;
     align-items: center;
     position: relative;
-    margin-top: 7vh;
+    margin-top: 20vh;
     width: 30rem;
-    height: 25vh;
+    height: 23vh;
     padding: 20px;
     box-shadow: 20px 20px 30px rgb(35, 35, 35);
     border-radius: 20px;
@@ -289,7 +313,7 @@ font-weight: 500;
     padding: 10px;
     box-shadow: 20px 20px 30px rgb(35, 35, 35);
     border-radius: 5px;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .imagemStencil {
@@ -312,9 +336,9 @@ font-weight: 500;
     background-color: whitesmoke;
     align-items: center;
     position: relative;
-    margin-top: 7vh;
+    margin-top: 20vh;
     width: 30rem;
-    height: 25vh;
+    height: 23vh;
     padding: 20px;
     box-shadow: 20px 20px 30px rgb(35, 35, 35);
     border-radius: 20px;
@@ -323,6 +347,7 @@ font-weight: 500;
 
 .cardImagem5 {
     background-color: whitesmoke;
+    
     align-items: center;
     position: relative;
     margin-top: 9vh;
@@ -331,7 +356,7 @@ font-weight: 500;
     padding: 10px;
     box-shadow: 20px 20px 30px rgb(35, 35, 35);
     border-radius: 5px;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .imagem3D {
@@ -355,9 +380,9 @@ font-weight: 500;
     background-color: whitesmoke;
     align-items: center;
     position: relative;
-    margin-top: 7vh;
+    margin-top: 20vh;
     width: 30rem;
-    height: 25vh;
+    height: 23vh;
     padding: 20px;
     box-shadow: 20px 20px 30px rgb(35, 35, 35);
     border-radius: 20px;
@@ -374,7 +399,7 @@ font-weight: 500;
     padding: 10px;
     box-shadow: 20px 20px 30px rgb(35, 35, 35);
     border-radius: 5px;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .imagemWildStyle {
@@ -398,9 +423,9 @@ font-weight: 500;
     background-color: whitesmoke;
     align-items: center;
     position: relative;
-    margin-top: 7vh;
+    margin-top: 20vh;
     width: 30rem;
-    height: 25vh;
+    height: 23vh;
     padding: 20px;
     box-shadow: 20px 20px 30px rgb(35, 35, 35);
     border-radius: 20px;
@@ -417,7 +442,7 @@ font-weight: 500;
     padding: 10px;
     box-shadow: 20px 20px 30px rgb(35, 35, 35);
     border-radius: 5px;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .imagemBombing {
@@ -435,7 +460,7 @@ font-weight: 500;
 .linha{
     width: 90%;
     height: 3px;
-    background-color:  rgb(255, 255, 255);
+    background-color:  whitesmoke;
     margin-top: -10px;
 }
 .direitoProjeto{
@@ -450,14 +475,14 @@ font-weight: 500;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: rgb(255, 255, 255);
+    color: whitesmoke;
 }
 .conteudoFooter2{
     display: flex;
     justify-content: space-evenly;
    
     align-items: center;
-    color: rgb(255, 255, 255);
+    color: whitesmoke;
 }
 .ContatoEmail{
 font-size: large;
