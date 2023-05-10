@@ -60,9 +60,10 @@ font-size: xx-large;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 5vh; 
-    width: 100%;
+    width: 90%;
     height: 85vh;
- 
+
+ margin-left: 10vh;
     
 }
 .cardDiaSemana{
@@ -79,7 +80,7 @@ background-color: whitesmoke;
      
     flex-direction: column; 
     width: 40vh;
-    height: 10vw;
+    height: 40vh;
     border-radius: 20px;
     background-color: whitesmoke;
     }
@@ -103,8 +104,8 @@ font-size: 16px;
     padding: 2%;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
-    margin-top: 7vh;
+    font-size: 25px;
+    margin-top: 13vh;
     }
 .container2{
     display: flex;

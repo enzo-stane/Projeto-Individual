@@ -430,3 +430,17 @@ font-weight: 500;
 /*  fim sessão tipo 5 bombing */
 
 /*  fim sessão 4 */
+
+
+
+
+.linha{
+    width: 90%;
+    height: 3px;
+    background-color:  rgb(255, 255, 255);
+    margin-top: -10px;
+}
+.direitoProjeto{
+    margin-left: 6%;
+    font-size: large;
+}

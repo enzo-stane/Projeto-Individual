@@ -32,12 +32,13 @@ function VerCarreira() {
    var parte4 = `
    <section class="cardTitulo">
 <div class="titulo">
-    COM ${50/NtreinosNaSemana} SEMANAS DE TREINOS VOCE VAI CONSEGUIR CHEGAR EM UM NIVEL MUITO BOM DE APRENDIZADO E VAI REPRESENTAR A
+    COM ${(50/NtreinosNaSemana).toFixed(0)} SEMANAS DE TREINOS VOCE VAI CONSEGUIR CHEGAR EM UM NIVEL MUITO BOM DE APRENDIZADO E VAI REPRESENTAR A
         CENA DO GRAFITE !
 </div>
 </section> 
 `
 
+div_ver2.innerHTML = ""
 
     if (NtreinosNaSemana == 1) {
         var i = 1
@@ -49,7 +50,7 @@ function VerCarreira() {
                 div_ver.innerHTML += ` 
                       <div class="cardDiaSemanaDescanso">
         <div class="tituloCardDiaSemana">
-            ${i}dia da semana 
+            ${i}ºdia da semana 
         </div>
         <div class="conteudoCardDiaSemanaDescanso">
           dia do descanso
@@ -61,7 +62,7 @@ function VerCarreira() {
                 div_ver.innerHTML += `   
                 <div class="cardDiaSemana">
         <div class="tituloCardDiaSemana">
-            ${i}dia da semana 
+            ${i}ºdia da semana 
         </div>
         <div class="conteudoCardDiaSemana">
             1- para sua tag escolha um nome que goste ou apelido; <br>
@@ -93,7 +94,7 @@ function VerCarreira() {
                 div_ver.innerHTML += ` 
                       <div class="cardDiaSemanaDescanso">
         <div class="tituloCardDiaSemana">
-            ${i}dia da semana 
+            ${i}ºdia da semana 
         </div>
         <div class="conteudoCardDiaSemanaDescanso">
           dia do descanso
@@ -105,7 +106,7 @@ function VerCarreira() {
                 div_ver.innerHTML += `   
                 <div class="cardDiaSemana">
         <div class="tituloCardDiaSemana">
-            ${i}dia da semana 
+            ${i}ºdia da semana 
         </div>
         <div class="conteudoCardDiaSemana">
             1- para sua tag escolha um nome que goste ou apelido; <br>
@@ -137,7 +138,7 @@ function VerCarreira() {
                 div_ver.innerHTML += ` 
                       <div class="cardDiaSemanaDescanso">
         <div class="tituloCardDiaSemana">
-            ${i}dia da semana 
+            ${i}ºdia da semana 
         </div>
         <div class="conteudoCardDiaSemanaDescanso">
           dia do descanso
@@ -149,7 +150,7 @@ function VerCarreira() {
                 div_ver.innerHTML += `   
                 <div class="cardDiaSemana">
         <div class="tituloCardDiaSemana">
-            ${i}dia da semana 
+            ${i}ºdia da semana 
         </div>
         <div class="conteudoCardDiaSemana">
             1- para sua tag escolha um nome que goste ou apelido; <br>
@@ -181,7 +182,7 @@ function VerCarreira() {
                 div_ver.innerHTML += ` 
                       <div class="cardDiaSemanaDescanso">
         <div class="tituloCardDiaSemana">
-            ${i}dia da semana 
+            ${i}ºdia da semana 
         </div>
         <div class="conteudoCardDiaSemanaDescanso">
           dia do descanso
@@ -193,7 +194,7 @@ function VerCarreira() {
                 div_ver.innerHTML += `   
                 <div class="cardDiaSemana">
         <div class="tituloCardDiaSemana">
-            ${i}dia da semana 
+            ${i}ºdia da semana 
         </div>
         <div class="conteudoCardDiaSemana">
             1- para sua tag escolha um nome que goste ou apelido; <br>
@@ -225,7 +226,7 @@ function VerCarreira() {
                 div_ver.innerHTML += ` 
                       <div class="cardDiaSemanaDescanso">
         <div class="tituloCardDiaSemana">
-            ${i}dia da semana 
+            ${i}ºdia da semana 
         </div>
         <div class="conteudoCardDiaSemanaDescanso">
           dia do descanso
@@ -237,7 +238,7 @@ function VerCarreira() {
                 div_ver.innerHTML += `   
                 <div class="cardDiaSemana">
         <div class="tituloCardDiaSemana">
-            ${i}dia da semana 
+            ${i}ºdia da semana 
         </div>
         <div class="conteudoCardDiaSemana">
             1- para sua tag escolha um nome que goste ou apelido; <br>
@@ -269,7 +270,7 @@ function VerCarreira() {
                 div_ver.innerHTML += ` 
                       <div class="cardDiaSemanaDescanso">
         <div class="tituloCardDiaSemana">
-            ${i}dia da semana 
+            ${i}ºdia da semana 
         </div>
         <div class="conteudoCardDiaSemanaDescanso">
           dia do descanso
@@ -281,7 +282,7 @@ function VerCarreira() {
                 div_ver.innerHTML += `   
                 <div class="cardDiaSemana">
         <div class="tituloCardDiaSemana">
-            ${i}dia da semana 
+            ${i}ºdia da semana 
         </div>
         <div class="conteudoCardDiaSemana">
             1- para sua tag escolha um nome que goste ou apelido; <br>
@@ -313,7 +314,7 @@ function VerCarreira() {
                 div_ver.innerHTML += `   
                 <div class="cardDiaSemana">
         <div class="tituloCardDiaSemana">
-            ${i}dia da semana 
+            ${i}ºdia da semana 
         </div>
         <div class="conteudoCardDiaSemana">
             1- para sua tag escolha um nome que goste ou apelido; <br>
