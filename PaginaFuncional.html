@@ -30,39 +30,20 @@
         </h1>
     </section>
     <section class="container2">
-        <!-- <div class="tipo">
+         <div class="tipo">
 
             <select id="ipt_tipo">
-                <option value=""></option>
-                <option value="">tag</option>
-                <option value="">stencil</option>
-                <option value="">3D</option>
-                <option value="">wildStyle</option>
-                <option value="">bombing</option>
+                <option value="1">tag</option>
+                <option value="2">stencil</option>
+                <option value="3">3D</option>
+                <option value="4">wildStyle</option>
+                <option value="5">bombing</option>
             </select>
 
-        </div> -->
-        <input type="text" id="ipt_tipo">
+        </div>  
 
-        <div class="idade">
-            <input type="number" id="ipt_idade">
-        </div>
-
-        <input type="number" id="ipt_Ntreinos">
-
-        <!-- <div class="Ntreinos">
-            <select id="ipt_Ntreinos">
-                <option value=""></option>
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-                <option value="">5</option>
-                <option value="">6</option>
-                <option value="">7</option>
-            </select>
-        </div> -->
-
+        <input type="number" min="1" max="7" id="ipt_Ntreinos">
+        
     </section>
     <section>
 
@@ -79,9 +60,7 @@
     function VerCarreira() {
 
         var NtreinosNaSemana = Number(ipt_Ntreinos.value)
-        var idade = Number(ipt_idade.value)
-       
-
+        var tipo = ipt_tipo.value
 
         if (NtreinosNaSemana == 1) {
             var i = 1

@@ -1,6 +1,7 @@
 function VerCarreira() {
 
     var NtreinosNaSemana = Number(ipt_Ntreinos.value)
+  
     
    var parte1 = `<section class="cardTitulo">
 <div class="titulo">
@@ -8,7 +9,7 @@ function VerCarreira() {
 </div>
 </section>  `
    var parte2 = ` <div class="tituloTipos">
-    voce escolheu bombing exemplos desse tipo sao:
+    voce escolheu -tipo- exemplos desse tipo sao:
 </div>
 <section class="containerTipo">
 
@@ -28,7 +29,7 @@ function VerCarreira() {
 
 
 `
-   var parte3= ` `
+
    var parte4 = `
    <section class="cardTitulo">
 <div class="titulo">
