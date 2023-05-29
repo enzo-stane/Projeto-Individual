@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background-image: url(imagemFundo.jpg);
+    background-image: url(..//assets/imgs/imagemFundo.jpg);
     
 }
 
@@ -81,7 +81,7 @@ header {
     align-items: center;
     border-radius: 25px;
     font-size: x-large;
-    width: 30vh;
+    width: 40vh;
     height: 8vh;
 font-weight: 500;
     font-family: 'Poppins', sans-serif;
@@ -486,9 +486,6 @@ margin-right: 5vh;
 }
 .imagemEmail{
     width: 10vh;
-}
-.myChart2{
-    
 }
 .containerGrafico{
     display: flex;

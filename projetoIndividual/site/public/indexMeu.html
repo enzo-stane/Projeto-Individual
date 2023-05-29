@@ -6,28 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pagina inicial</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="..//public/css/index.css">
+   
 </head>
-
+<script src="./js/funcoes.js"></script>
 <body>
 
     <header class="header">
 
-        <img src="imagemLogo.png" class="logoProjeto" alt="">
+        <img src="..//public/assets/imgs/imagemLogo.png" class="logoProjeto" alt="">
         <nav class="navbar">
-            <a class="itemMenu" href="">home</a>
-            <a class="itemMenu" href="">projeto</a>
-            <a class="itemMenu" href="">historia</a>
-            <a class="itemMenu" href="">galeria</a>
-            <a class="itemMenu" href="">contato</a>
+            <a class="itemMenu" href="index.html">home</a>
+            <a class="itemMenu" href="#home">projeto</a>
+            <a class="itemMenu" href="#historia">historia</a>
+            <a class="itemMenu" href="#galeria">galeria</a>
+            <a class="itemMenu" href="#contato">contato</a>
         </nav>
-        <a class="cadastrar" href="telaCadastro.html">cadastrar</a>
+        <a class="cadastrar" href="cadastro.html">cadastrar</a>
 
     </header>
 
-    <section class="container1">
-        <a class="button" href="telaLogin.html">
+    <section  class="container1">
+        <a class="button" href="login.html">
             veja seu potencial
         </a>
 
@@ -43,7 +43,7 @@
         nosso projeto
     </div>
 
-    <section class="containerProjeto">
+    <section id="home" class="containerProjeto">
 
         <div class="card1">
             Sabemos que muitas pessoas ainda não reconhecem o grafite como arte e o tratam de forma marginalizada,
@@ -54,7 +54,7 @@
             cultura para todos os tipos de pessoa.
         </div>
         <div class="cardImagem1">
-            <img class="ImagemProjeto" src="ImagemProjeto.jpg" alt="">
+            <img class="ImagemProjeto" src="..//public/assets/imgs/ImagemProjeto.jpg" alt="">
         </div>
 
     </section>
@@ -63,10 +63,10 @@
         historia do grafite no brasil
     </div>
 
-    <section class="containerHistoria">
+    <section id="historia" class="containerHistoria">
 
         <div class="cardImagem2">
-            <img class="imagemGrafiteBrasil" src="grafitebrasil.jpg" alt="">
+            <img class="imagemGrafiteBrasil" src="..//public/assets/imgs/grafitebrasil.jpg" alt="">
         </div>
         <div class="card2">
             O grafite teve origem em Nova York e foi introduzido no Brasil no final da década de 1970,em formato de
@@ -84,36 +84,11 @@
 
 
 
-
-
-    <div class="tituloContainerTipos">
-        Votos em cada tipo de Grafite
-    </div>
-
-
-
-    <div class="containerGrafico">
-        <div class="cardGrafico">
-           aqui temos um grafico de barras para mostrar uma media de votos em cada tipo de grafite conforme as respostas dos nossos usuarios
-                    </div>
-
-        <canvas id="myChart2"></canvas>
-       
-
-    </div>
-
-
-
-
-
-
-
-
     <div class="tituloContainerTipos">
         tipos de grafite
     </div>
 
-    <section class="containerTipos1">
+    <section id="galeria" class="containerTipos1">
 
         <div class="cardTipo1">
             Tag é a assinatura do grafiteiro. A tag é o nome ou apelido escolhido pelo artista, que aparece próximo da
@@ -122,7 +97,7 @@
         </div>
         <div class="cardImagem3">
 
-            <img class="imagemTag" src="imagemTag.png" alt="">
+            <img class="imagemTag" src="..//public/assets/imgs/imagemTag.png" alt="">
             <div class="NomeTag">
                 Tag
             </div>
@@ -133,7 +108,7 @@
 
         <div class="cardImagem4">
 
-            <img class="imagemStencil" src="imagemStencil.jpg" alt="">
+            <img class="imagemStencil" src="..//public/assets/imgs/imagemStencil.jpg" alt="">
             <div class="NomeStencil">
                 Stencil
             </div>
@@ -154,7 +129,7 @@
         </div>
         <div class="cardImagem5">
 
-            <img class="imagem3D" src="imagem3D.jpg" alt="">
+            <img class="imagem3D" src="..//public/assets/imgs/imagem3D.jpg" alt="">
             <div class="Nome3D">
                 3D
             </div>
@@ -165,7 +140,7 @@
 
         <div class="cardImagem6">
 
-            <img class="imagemWildStyle" src="imagemWildStyle.jpg" alt="">
+            <img class="imagemWildStyle" src="..//public/assets/imgs/imagemWildStyle.jpg" alt="">
             <div class="NomeWild">
                 WildStyle
             </div>
@@ -186,7 +161,7 @@
         </div>
         <div class="cardImagem7">
 
-            <img class="imagemBombing" src="imagemBombing.jpg" alt="">
+            <img class="imagemBombing" src="..//public/assets/imgs/imagemBombing.jpg" alt="">
             <div class="NomeBombing">
                 Bombing/Thrown Up
             </div>
@@ -194,12 +169,12 @@
 
     </section>
 
-    <footer>
+    <footer id="contato">
         <section>
             <hr class="linha">
             <font face="Arial" size="10px" color="White">
                 <div class="conteudoFooter1">
-                    <img class="logoProjeto" src="imagemLogo.png" alt="logoProjeto">
+                    <img class="logoProjeto" src="..//public/assets/imgs/imagemLogo.png" alt="logoProjeto">
                     <h5 class="direitoProjeto">
                         Copyrigth © 2023 StaneArt. Todos os direitos reservados
                     </h5>
@@ -212,11 +187,11 @@
             <h5 class="contatoFooter">
                 entre em contato conosco:
             </h5>
-            <img class="imagemTelefone" src="imagemTelefone.png" alt="imagemTelefone">
+            <img class="imagemTelefone" src="..//public/assets/imgs/imagemTelefone.png" alt="imagemTelefone">
             <h5 class="ContatoTelefone">
                 telefone para contato: (11)91111-1111
             </h5>
-            <img class="imagemEmail" src="imagemEmail.png" alt="imagemEmail">
+            <img class="imagemEmail" src="..//public/assets/imgs/imagemEmail.png" alt="imagemEmail">
             <h5 class="ContatoEmail">
                 email para contado: StaneArt@gmail.com
             </h5>
@@ -227,42 +202,3 @@
 </body>
 
 </html>
-<script>
-
-
-    const labels2 = [
-        'Tag',
-        'Stencil',
-        '3D',
-        'WildStyle',
-        'Bombing'
-    ];
-
-
-    const data2 = {
-        labels: labels2,
-        datasets: [{
-            label: "Votos em cada tipo de grafite",
-            backgroundColor: "rgb()",
-            borderColor: "rgb()",
-            data: [5, 30, 15, 20, 30],
-        },
-
-        ]
-    };
-
-
-    const config2 = {
-        type: `bar`,
-        data: data2,
-        options: {}
-    };
-
-
-    const myChart2 = new Chart(
-        document.getElementById('myChart2'),
-        config2
-    );
-
-
-</script>

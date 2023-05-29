@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(..//assets/imgs/imagemFundo.jpg);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 15vh;
+   
+}
+
+.logoProjeto {
+    width: 25vh;
+    margin-right: 30vh;
+    
+}
+
+.navbar {
+    font-size: xx-large;
+
+}
+
+.navbar a {
+    text-decoration: none;
+
+}
+
+.itemMenu {
+    color: rgb(255, 255, 255);
+    margin-right: 10vh;
+    font-weight: 900;
+}
+
+.cadastrar {
+    display: flex;
+    align-items: center;
+    background-color:#cf2b46 ;
+    box-shadow: 5px 5px 0px black, 5px 5px 0px;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    width: 22vh;
+    height: 3vw;
+    font-size: x-large;
+    
+}
+
+.cardTitulo{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 10vw;
+font-size: xx-large;
+ /* background-color: blue;  */
+}
+.titulo{
+color: whitesmoke;
+font-size: xx-large;
+}
+.containerTipo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+    width: 100%;
+    height: 20vw;
+    /* background-color: coral; */
+    
+}
+.imagens{
+    display: flex;
+    justify-content: space-around;
+    width: 40vh;
+    height: 15vw;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+.tituloTipos{
+    display: flex;
+
+justify-content: center;
+width: 100%;
+height: 2vw;
+color: whitesmoke;
+font-size: xx-large;
+}
+.tituloContainer1{
+    display: flex;
+
+justify-content: center;
+width: 100%;
+height: 2vw;
+color: whitesmoke;
+font-size: xx-large;
+}
+#div_ver{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5vh; 
+    width: 90%;
+    height: 85vh;
+
+ margin-left: 10vh;
+    
+}
+.cardDiaSemana{
+display: flex;
+  
+flex-direction: column;  
+width: 20vw;
+height: 40vh;
+border-radius: 20px;
+background-color: whitesmoke;
+}
+.cardDiaSemanaDescanso{
+    display: flex;
+     
+    flex-direction: column; 
+    width: 40vh;
+    height: 40vh;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    }
+.tituloCardDiaSemana{
+display: flex;
+padding: 0%;
+justify-content: center;
+font-size: x-large;
+background-color: rgb(99, 69, 69);
+color: whitesmoke;
+}
+.conteudoCardDiaSemana{
+display: flex;
+padding: 2%;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+}
+.conteudoCardDiaSemanaDescanso{
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 13vh;
+    }
+.container2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 25vw;
+    /* background-color: yellow; */
+    
+}
+.container3{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 20vw;
+    /* background-color: red; */
+    
+}
+.cardSemanaTotal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    width: 70vh;
+    height: 8vw;
+    border-radius: 20px;
+    background-color: rgb(99, 69, 69);
+}
+
+.containerGrafico{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 35vh;
+    margin-top: 5vh;
+}
+.cardGrafico{
+    background-color: whitesmoke;
+    align-items: center;
+    position: relative;
+    margin-top: 5vh;
+    width: 30rem;
+    height: 20vh;
+    margin-right: 10vh;
+    padding: 20px;
+    box-shadow: 20px 20px 30px rgb(35, 35, 35);
+    border-radius: 20px;
+    font-size: larger;
+}
+.tituloContainerTipos {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 900;
+    margin-top: 8vh;
+    color: rgb(255, 255, 255);
+}
+.tituloContainerEscolha{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 900;
+    margin-top: 8vh;
+    color: rgb(255, 255, 255);
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+select{
+width: 12vh;
+height: 4vh;
+border-radius: 25px;
+background-color: #cf2b46;
+color: rgb(255, 255, 255);
+font-size: large;
+box-shadow: 5px 5px 0px black, 5px 5px 0px;
+font-weight: 500;
+align-items: center;
+}
+input{
+    width: 12vh;
+    height: 4vh;
+    border-radius: 25px;
+    background-color: #cf2b46;
+color: rgb(255, 255, 255);
+font-size: large;
+box-shadow: 5px 5px 0px black, 5px 5px 0px;
+font-weight: 500;
+align-items: center;
+}
+button{
+    width: 20vh;
+    height: 7vh;
+    border-radius: 25px;
+    background-color: #cf2b46;
+color: rgb(255, 255, 255);
+font-size: x-large;
+box-shadow: 5px 5px 0px black, 5px 5px 0px;
+font-weight: 500;
+align-items: center;
+}
+
+.escolha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.butEscolha{
+    width: 15vh;
+    height: 5vh;
+    margin-top: 5vh;
+    margin-left: 4vh;
+    border-radius: 25px;
+    background-color: #cf2b46;
+color: rgb(255, 255, 255);
+font-size: x-large;
+box-shadow: 5px 5px 0px black, 5px 5px 0px;
+font-weight: 500;
+align-items: center;
+}
+.tituloContainerVotos {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 900;
+   
+    margin-right: 50vw;
+    color: rgb(255, 255, 255);
+}

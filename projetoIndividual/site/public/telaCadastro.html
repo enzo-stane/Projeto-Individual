@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="telaCadastro.css">
+    <link rel="stylesheet" href="./css/telaCadastro.css">
 </head>
 <body>
     
@@ -30,10 +30,14 @@
 
     
     <div class="label-float">
-        nome completo:
-       <input type="text" id="ipt_nomeCompleto"> 
+        nome:
+       <input type="text" id="ipt_nome"> 
     </div>
     
+    <div class="label-float">
+        sobrenome:
+       <input type="text" id="ipt_sobrenome"> 
+    </div>
 
     <div class="label-float">
         email:
@@ -66,13 +70,14 @@
 </html>
 <script>
      function cadastrar() {
-        var nomeCompleto = ipt_nomeCompleto.value;
+        var nome = ipt_nome.value;
+        var sobrenome = ipt_sobrenome.value;
         var email = ipt_email.value;
         var senha = ipt_senha.value;
         var repetirSenha = ipt_RepetirSenha.value;
 
 
-        if (nomeCompleto == "" || email == "" || senha == "" || repetirSenha == "") {
+        if (nome == "" || sobrenome == "" || email == "" || senha == "" || repetirSenha == "") {
             alert('Preencha todos os campos');
         } else if (senha == repetirSenha) {
             alert('Cadastro efetuado com sucesso');
