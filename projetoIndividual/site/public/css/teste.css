@@ -80,8 +80,9 @@ font-size: xx-large;
 .imagens{
     display: flex;
     justify-content: space-around;
-    width: 40vh;
-    height: 15vw;
+    width: 30vh;
+    height: 10vw;
+    margin-top: 2vh;
     border-radius: 20px;
     background-color: whitesmoke;
 }
@@ -239,14 +240,29 @@ input{
     border-radius: 25px;
     background-color: #cf2b46;
 color: rgb(255, 255, 255);
-font-size: large;
+font-size: x-large;
 box-shadow: 5px 5px 0px black, 5px 5px 0px;
 font-weight: 500;
 align-items: center;
+text-align: center;
 }
+
 button{
-    width: 20vh;
-    height: 7vh;
+    width: 17vh;
+    height: 5vh;
+    border-radius: 25px;
+    background-color: #cf2b46;
+color: rgb(255, 255, 255);
+font-size: x-large;
+box-shadow: 5px 5px 0px black, 5px 5px 0px;
+font-weight: 500;
+align-items: center;
+text-align: center;
+}
+
+.butPotencial{
+    width: 17vh;
+    height: 5vh;
     border-radius: 25px;
     background-color: #cf2b46;
 color: rgb(255, 255, 255);
@@ -262,7 +278,63 @@ align-items: center;
     align-items: center;
 }
 
-.butEscolha{
+.butEscolha1{
+    width: 15vh;
+    height: 5vh;
+    margin-top: 5vh;
+    margin-left: 4vh;
+    border-radius: 25px;
+    background-color: #cf2b46;
+color: rgb(255, 255, 255);
+font-size: x-large;
+box-shadow: 5px 5px 0px black, 5px 5px 0px;
+font-weight: 500;
+align-items: center;
+}
+
+.butEscolha2{
+    width: 15vh;
+    height: 5vh;
+    margin-top: 5vh;
+    margin-left: 4vh;
+    border-radius: 25px;
+    background-color: #cf2b46;
+color: rgb(255, 255, 255);
+font-size: x-large;
+box-shadow: 5px 5px 0px black, 5px 5px 0px;
+font-weight: 500;
+align-items: center;
+}
+
+.butEscolha3{
+    width: 15vh;
+    height: 5vh;
+    margin-top: 5vh;
+    margin-left: 4vh;
+    border-radius: 25px;
+    background-color: #cf2b46;
+color: rgb(255, 255, 255);
+font-size: x-large;
+box-shadow: 5px 5px 0px black, 5px 5px 0px;
+font-weight: 500;
+align-items: center;
+}
+
+.butEscolha4{
+    width: 15vh;
+    height: 5vh;
+    margin-top: 5vh;
+    margin-left: 4vh;
+    border-radius: 25px;
+    background-color: #cf2b46;
+color: rgb(255, 255, 255);
+font-size: x-large;
+box-shadow: 5px 5px 0px black, 5px 5px 0px;
+font-weight: 500;
+align-items: center;
+}
+
+.butEscolha5{
     width: 15vh;
     height: 5vh;
     margin-top: 5vh;
@@ -283,4 +355,58 @@ align-items: center;
    
     margin-right: 50vw;
     color: rgb(255, 255, 255);
+}
+
+.containerRelacionar{
+    width: 100%;
+    height: 115vh;
+    margin-top: 5vh;
+    
+}
+
+.Relacionartipo1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.cardTipo1 {
+    background-color: whitesmoke;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 20rem;
+    height: 10vh;
+    padding: 20px;
+    box-shadow: 20px 20px 30px rgb(35, 35, 35);
+    border-radius: 20px;
+    font-size: larger;
+}
+
+.numero{
+    color: whitesmoke;
+    font-size: xx-large;
+}
+
+
+.imagens1{
+    display: flex;
+    justify-content: space-around;
+    width: 30vh;
+    height: 10vw;
+    margin-top: 2vh;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+
+.imagens1 img{
+   width: 100%;
+}
+
+.butVerificar{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
 }
