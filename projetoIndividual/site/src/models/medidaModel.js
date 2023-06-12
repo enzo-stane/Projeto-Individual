@@ -6,10 +6,10 @@ function buscarUltimasMedidas(idAquario, limite_linhas) {
 
     if (process.env.AMBIENTE_PROCESSO == "producao") {
         instrucaoSql = ` SELECT COUNT(Usuario.fkVoto) as voto, voto.nomeGrafite as grafite FROM Usuario JOIN voto
-        ON  voto.idVoto = usuario.fkVoto GROUP BY usuario.fkVoto ORDER BY voto DESC LIMIT 1;`;
+        ON  voto.idVoto = usuario.fkVoto GROUP BY usuario.fkVoto ;`;
     } else if (process.env.AMBIENTE_PROCESSO == "desenvolvimento") {
         instrucaoSql = ` SELECT COUNT(Usuario.fkVoto) as voto, voto.nomeGrafite as grafite FROM Usuario JOIN voto
-        ON  voto.idVoto = usuario.fkVoto GROUP BY usuario.fkVoto ORDER BY voto DESC LIMIT 1;`;
+        ON  voto.idVoto = usuario.fkVoto GROUP BY usuario.fkVoto ;`;
     } else {
         console.log("\nO AMBIENTE (produção OU desenvolvimento) NÃO FOI DEFINIDO EM app.js\n");
         return

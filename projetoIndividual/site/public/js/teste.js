@@ -1,8 +1,8 @@
-var listaTag = [' <img width="100%" src="./assets/imgs/tag1.jpg" alt="">', ' <img width="100%" src="./assets/imgs/tag2.jpg" alt="">', ' <img width="100%" src="./assets/imgs/tag3.jpg" alt="">']
-var listaStencil = [' <img width="100%" src="./assets/imgs/stencil1.jpg" alt="">', ' <img width="100%" src="./assets/imgs/stencil2.jpg" alt="">', ' <img width="100%" src="./assets/imgs/stencil3.jpg" alt="">']
-var lista3D = [' <img width="100%" src="./assets/imgs/3d1.jpg" alt="">', ' <img width="100%" src="./assets/imgs/3d2.jpg" alt="">', ' <img width="100%" src="./assets/imgs/3d3.jpg" alt="">']
-var listaWild = [' <img width="100%" src="./assets/imgs/wild1.jpg" alt="">', ' <img width="100%" src="./assets/imgs/wild2.jpg" alt="">', ' <img width="100%" src="./assets/imgs/wild3.jpg" alt="">']
-var listaBombing = [' <img width="100%" src="./assets/imgs/bomb4.jpg" alt="">', ' <img width="100%" src="./assets/imgs/bomb2.jpg" alt="">', ' <img width="100%" src="./assets/imgs/bomb3.jpg" alt="">']
+var listaTag = [' <img width="100%" src="../assets/imgs/tag1.jpg" alt="">', ' <img width="100%" src="../assets/imgs/tag2.jpg" alt="">', ' <img width="100%" src="../assets/imgs/tag3.jpg" alt="">']
+var listaStencil = [' <img width="100%" src="../assets/imgs/stencil1.jpg" alt="">', ' <img width="100%" src="../assets/imgs/stencil2.jpg" alt="">', ' <img width="100%" src="../assets/imgs/stencil3.jpg" alt="">']
+var lista3D = [' <img width="100%" src="../assets/imgs/3d1.jpg" alt="">', ' <img width="100%" src="../assets/imgs/3d2.jpg" alt="">', ' <img width="100%" src="../assets/imgs/3d3.jpg" alt="">']
+var listaWild = [' <img width="100%" src="../assets/imgs/wild1.jpg" alt="">', ' <img width="100%" src="../assets/imgs/wild2.jpg" alt="">', ' <img width="100%" src="../assets/imgs/wild3.jpg" alt="">']
+var listaBombing = [' <img width="100%" src="../assets/imgs/bomb4.jpg" alt="">', ' <img width="100%" src="../assets/imgs/bomb2.jpg" alt="">', ' <img width="100%" src="../assets/imgs/bomb3.jpg" alt="">']
 
 
 var Treino = {

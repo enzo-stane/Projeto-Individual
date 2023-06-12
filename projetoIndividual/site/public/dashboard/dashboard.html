@@ -15,8 +15,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
     <script src="http://www.chartjs.org/dist/2.7.1/Chart.js"></script>
     <script src="http://www.chartjs.org/samples/latest/utils.js"></script>
+    <script src='../js/teste.js'></script>
 
-    <title>Dashboard Personagens Favoritos</title>
+    <title>Dashboard </title>
 </head>
 
 <body>
@@ -24,13 +25,13 @@
 
     <header class="header">
 
-        <img src="./assets/imgs/imagemLogo.png" class="logoProjeto" alt="">
+        <img src="../assets/imgs/imagemLogo.png" class="logoProjeto" alt="">
         <nav class="navbar">
-            <a class="itemMenu" href="indexMeu.html">home</a>
-            <a class="itemMenu" href="indexMeu.html#projeto">projeto</a>
-            <a class="itemMenu" href="indexMeu.html#historia">história</a>
-            <a class="itemMenu" href="indexMeu.html#galeria">galeria</a>
-            <a class="itemMenu" href="indexMeu.html#contato">contato</a>
+            <a class="itemMenu" href="../indexMeu.html">home</a>
+            <a class="itemMenu" href="../indexMeu.html#projeto">projeto</a>
+            <a class="itemMenu" href="../indexMeu.html#historia">história</a>
+            <a class="itemMenu" href="../indexMeu.html#galeria">galeria</a>
+            <a class="itemMenu" href="../indexMeu.html#contato">contato</a>
         </nav>
       
 
@@ -39,9 +40,9 @@
 
 
 
-    <div class="subtitulo">
-        <span>Bem-vindo</span>
-        <span id="b_usuario"></span>
+    <div class="tituloContainerTipos">
+        
+        bem-vindo &nbsp; <span id="b_usuario"></span> 
     </div>
 
 
@@ -85,7 +86,7 @@
     </div>
 <div>
     <div class="imagens1">
-       <img src="./assets/imgs/bomb2.jpg"  alt="">
+       <img src="../assets/imgs/bomb2.jpg"  alt="">
      </div>
 </div>
 <div>
@@ -106,7 +107,7 @@ assinatura do grafiteiro, feito em formato de pixo com poucas letras
     </div>
 <div>
     <div class="imagens1">
-       <img src="./assets/imgs/3d3.jpg" alt="">
+       <img src="../assets/imgs/3d3.jpg" alt="">
      </div>
 </div>
 <div>
@@ -125,7 +126,7 @@ grafite feito através de molde, podendo ser feito várias vezes de forma igual
     </div>
 <div>
     <div class="imagens1">
-       <img src="./assets/imgs/wild2.jpg" alt="">
+       <img src="../assets/imgs/wild2.jpg" alt="">
      </div>
 </div>
 <div>
@@ -144,7 +145,7 @@ letras arredondadas , feitas de forma rápida e forma de vômito
     </div>
 <div>
     <div class="imagens1">
-       <img src="./assets/imgs/stencil2.jpg" alt="">
+       <img src="../assets/imgs/stencil2.jpg" alt="">
      </div>
 </div>
 <div>
@@ -163,7 +164,7 @@ grafite com mais reconhecimento fora do Brasil, parece estar saindo da parede
     </div>
 <div>
     <div class="imagens1">
-       <img src="./assets/imgs/tag3.jpg" alt="">
+       <img src="../assets/imgs/tag3.jpg" alt="">
      </div>
 </div>
 <div>
@@ -237,8 +238,9 @@ grafite muito detalhado e com muitas cores, quase indecifrável sem ajuda
 <script>
 
 
-    b_usuario.innerHTML = sessionStorage.NOME_USUARIO
 
+    b_usuario.innerHTML = sessionStorage.NOME_USUARIO
+   
 
 
     let proximaAtualizacao;
@@ -282,7 +284,8 @@ grafite muito detalhado e com muitas cores, quase indecifrável sem ajuda
                 {
                     yAxisID: 'y-totalvoto',
                     label: 'votos',
-                    backgroundColor: ['#FF0000', '#228B22', '#D2691E', '#DAA520', '#4B0082', '#0000FF', '#FFF', '#ADD8e6', '#FF007F', '#008000'],
+                    backgroundColor: ['yellow' , 'yellow' , 'yellow' , 'yellow' , 'yellow' , 'yellow'],
+                   
                     fill: true,
                     data: []
                 }
@@ -322,8 +325,9 @@ grafite muito detalhado e com muitas cores, quase indecifrável sem ajuda
                         id: 'y-totalvoto',
                         ticks: {
                             beginAtZero: true,
-                            max: 50,
-                            min: 0
+                           max: 50 ,
+                            min: 0 ,
+                            
                         }
                     }, {
                         display: false,
@@ -351,10 +355,10 @@ grafite muito detalhado e com muitas cores, quase indecifrável sem ajuda
                             var registro = novoRegistro[i];
                             // tirando e colocando valores no gráfico
                             dados.labels.shift(); // apagar o primeiro
-                            dados.labels.push(registro.personagem);// incluir um novo momento
+                            dados.labels.push(registro.voto);// incluir um novo momento
 
                             dados.datasets[0].data.shift();  // apagar o primeiro de umidade
-                            dados.datasets[0].data.push(registro.personagem); // incluir uma nova medida de umidade
+                            dados.datasets[0].data.push(registro.voto); // incluir uma nova medida de umidade
 
                             dados.datasets[1].data.shift();
                             dados.datasets[1].data.push(registro.voto);
@@ -379,3 +383,34 @@ grafite muito detalhado e com muitas cores, quase indecifrável sem ajuda
 
     }
 </script>
+<script>
+
+    function verificar(){
+    
+    var escolha1 = Number(ipt_escolha1.value)
+    var escolha2 = Number(ipt_escolha2.value)
+    var escolha3 = Number(ipt_escolha3.value)
+    var escolha4 = Number(ipt_escolha4.value)
+    var escolha5 = Number(ipt_escolha5.value)
+    
+    
+    if(escolha1 != 5 ){
+    alert("Precisa preencher todos os campos corretamente pra conseguir,tente denovo")
+    }else if(escolha2 != 4 ){
+    alert("Precisa preencher todos os campos corretamente pra conseguir,tente denovo")
+    }else if(escolha3 != 1 ){
+    alert("Precisa preencher todos os campos corretamente pra conseguir,tente denovo")
+    }else if(escolha4 != 2 ){
+    alert("Precisa preencher todos os campos corretamente pra conseguir,tente denovo")
+    }else if(escolha5 != 3 ){
+    alert("Precisa preencher todos os campos corretamente pra conseguir,tente denovo")
+    }else{
+    alert("Parabéns conseguiu acertar todos os tipos de grafite !")
+    }
+    
+    
+    
+    }
+    
+    </script>
+    
