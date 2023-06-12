@@ -54,6 +54,10 @@ header {
     font-size: x-large;
     
 }
+.grafico{
+    width: 70vh;
+    background-color: blue;
+}
 
 .cardTitulo{
 display: flex;

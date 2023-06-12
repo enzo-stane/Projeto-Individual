@@ -75,6 +75,15 @@
                         <span>E-mail:</span>
                         <input id="email_input" type="text" placeholder="meuemail@provedor.com">
                     </div>
+                    <p>escolha seu tipo de grafite favorito:</p>
+                    <select name="ipt_escolha" id="ipt_escolha">
+                    <option value=""></option>
+                    <option value="1">TAG</option>
+                    <option value="2">STENCIL</option>
+                    <option value="3">3D</option>
+                    <option value="4">WILDSTYLE</option>
+                    <option value="5">BOMBING</option>
+                    </select>
                     <div class="label-float">
                         <span>Senha:</span>
                         <input id="senha_input" type="password" placeholder="******">
@@ -112,11 +121,13 @@
         var dtNascVar = nascimento_input.value;
         var telefoneVar = telefone_input.value;
         var emailVar = email_input.value;
+        var votoVar = ipt_escolha.value;
         var senhaVar = senha_input.value;
         var confirmacaoSenhaVar = confirmacao_senha_input.value;
 
+console.log(votoVar)
 
-        if (nomeVar == "" || sobrenomeVar == "" || dtNascVar == "" || telefoneVar == "" || emailVar == "" || senhaVar == "" || confirmacaoSenhaVar == "") {
+        if (nomeVar == "" || sobrenomeVar == "" || dtNascVar == "" || telefoneVar == "" || emailVar == "" || votoVar == "" || senhaVar == "" || confirmacaoSenhaVar == "") {
             cardErro.style.display = "block"
             mensagem_erro.innerHTML = "(todos os campos devem ser preenchidos )";
 
@@ -146,6 +157,7 @@
                 dtNascServer: dtNascVar,
                 telefoneServer: telefoneVar,
                 emailServer: emailVar,
+                votoServer: votoVar,
                 senhaServer: senhaVar,
                 confirmacaoSenhaServer: confirmacaoSenhaVar
             })
