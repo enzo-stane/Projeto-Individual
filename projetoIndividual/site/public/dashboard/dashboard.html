@@ -28,9 +28,9 @@
         <img src="../assets/imgs/imagemLogo.png" class="logoProjeto" alt="">
         <nav class="navbar">
             <a class="itemMenu" href="../indexMeu.html">home</a>
-            <a class="itemMenu" href="../indexMeu.html#projeto">projeto</a>
-            <a class="itemMenu" href="../indexMeu.html#historia">história</a>
-            <a class="itemMenu" href="../indexMeu.html#galeria">galeria</a>
+            <a class="itemMenu" href="./dashboard.html#tituloContainerTipos">votação</a>
+            <a class="itemMenu" href="./dashboard.html#tituloContainerTipos">jogo</a>
+            <a class="itemMenu" href="./dashboard.html#tituloContainerEscolha">treino</a>
             <a class="itemMenu" href="../indexMeu.html#contato">contato</a>
         </nav>
       
@@ -47,7 +47,7 @@
 
 
     
-    <div class="tituloContainerTipos">
+    <div id="tituloContainerTipos" class="tituloContainerTipos">
         Votos em cada tipo de Grafite
     </div>
 
@@ -60,7 +60,7 @@
 
 
 <div class="grafico">
-    <canvas  id="myChart"></canvas>
+    <canvas style="background-color: whitesmoke; border-radius: 25px; box-shadow: 20px 20px 30px rgb(35, 35, 35);font-size: x-large;"   id="myChart"></canvas>
 </div>
 
       
@@ -71,7 +71,7 @@
 
 
     
-    <div class="tituloContainerTipos">
+    <div id="tituloContainerTipos" class="tituloContainerTipos">
         Relacione as colunas de descrição com o seu grafite !
     </div>
 
@@ -191,7 +191,7 @@ grafite muito detalhado e com muitas cores, quase indecifrável sem ajuda
 
 
 
-    <div class="tituloContainerEscolha">
+    <div id="tituloContainerEscolha" class="tituloContainerEscolha">
         <h1> Agora vamos te ajudar a praticar !</h1>   
      
     </div>
@@ -241,8 +241,6 @@ grafite muito detalhado e com muitas cores, quase indecifrável sem ajuda
 
     b_usuario.innerHTML = sessionStorage.NOME_USUARIO
    
-
-
     let proximaAtualizacao;
 
     window.onload = obterDadosGrafico(1);
@@ -276,6 +274,7 @@ grafite muito detalhado e com muitas cores, quase indecifrável sem ajuda
     // A função *plotarGrafico* também invoca a função *atualizarGrafico*
     function plotarGrafico(resposta, idAquario) {
         console.log('iniciando plotagem do gráfico...');
+        Chart.defaults.color = '#FFFFFF';
 
         var dados = {
             labels: [],
@@ -284,7 +283,7 @@ grafite muito detalhado e com muitas cores, quase indecifrável sem ajuda
                 {
                     yAxisID: 'y-totalvoto',
                     label: 'votos',
-                    backgroundColor: ['yellow' , 'yellow' , 'yellow' , 'yellow' , 'yellow' , 'yellow'],
+                    backgroundColor: ['rgb(250, 250 , 0)' , 'rgb(250, 250 , 0)' , 'rgb(250, 250 , 0)' , 'rgb(250, 250 , 0)' , 'rgb(250, 250 , 0)' , 'rgb(250, 250 , 0)'],
                    
                     fill: true,
                     data: []
@@ -295,7 +294,7 @@ grafite muito detalhado e com muitas cores, quase indecifrável sem ajuda
 
         for (i = 0; i < resposta.length; i++) {
             var registro = resposta[i];
-            dados.labels.push(registro.voto);
+            dados.labels.push(registro.grafite);
             dados.datasets[0].data.push(registro.voto);
             console.log(registro.voto)
 
@@ -325,7 +324,7 @@ grafite muito detalhado e com muitas cores, quase indecifrável sem ajuda
                         id: 'y-totalvoto',
                         ticks: {
                             beginAtZero: true,
-                           max: 50 ,
+                          
                             min: 0 ,
                             
                         }
@@ -334,6 +333,7 @@ grafite muito detalhado e com muitas cores, quase indecifrável sem ajuda
                     }],
                 }
             }
+
         });
 
 
